@@ -14,7 +14,7 @@ export function HowItWorks({ dict }: HowItWorksProps) {
     ]
 
     return (
-        <section className="container mx-auto py-24 md:py-32">
+        <section className="container mx-auto py-16 md:py-32 px-4">
             <div className="flex flex-col items-center gap-4 text-center mb-16">
                 <Badge variant="outline" className="px-3 py-1">{dict.badge}</Badge>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

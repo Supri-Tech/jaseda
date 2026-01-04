@@ -8,7 +8,7 @@ interface TestimonialsProps {
 
 export function Testimonials({ dict }: TestimonialsProps) {
     return (
-        <section className="container mx-auto py-24 md:py-32">
+        <section className="container mx-auto py-16 md:py-32 px-4">
             <div className="flex flex-col items-center gap-4 text-center mb-10">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                     {dict.title}
@@ -17,7 +17,7 @@ export function Testimonials({ dict }: TestimonialsProps) {
 
             <div className="mx-auto max-w-4xl">
                 <Card className="bg-primary/5 border-none shadow-none">
-                    <CardContent className="flex flex-col items-center gap-6 p-8 text-center md:p-12">
+                    <CardContent className="flex flex-col items-center gap-6 p-6 text-center md:p-12">
                         <Quote className="h-10 w-10 text-primary/40" />
                         <p className="text-xl font-medium leading-relaxed md:text-2xl">
                             "{dict.quote}"

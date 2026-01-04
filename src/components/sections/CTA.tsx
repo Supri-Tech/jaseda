@@ -7,8 +7,8 @@ interface CTAProps {
 
 export function CTA({ dict }: CTAProps) {
     return (
-        <section className="container mx-auto py-24 md:py-32">
-            <div className="flex flex-col items-center gap-6 rounded-3xl bg-secondary px-6 py-16 text-center md:px-12 md:py-24">
+        <section className="container mx-auto py-16 md:py-32 px-4">
+            <div className="flex flex-col items-center gap-6 rounded-3xl bg-secondary px-6 py-12 text-center md:px-12 md:py-24">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                     {dict.title}
                 </h2>

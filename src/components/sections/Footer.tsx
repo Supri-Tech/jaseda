@@ -9,7 +9,7 @@ interface FooterProps {
 export function Footer({ dict }: FooterProps) {
     return (
         <footer className="w-full border-t bg-background">
-            <div className="container mx-auto flex flex-col gap-8 py-12 md:py-16">
+            <div className="container mx-auto flex flex-col gap-8 py-12 md:py-16 px-4">
                 <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
                     <div className="col-span-2 lg:col-span-2">
                         <Link href="/" className="text-xl font-bold tracking-tighter">

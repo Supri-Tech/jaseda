@@ -8,8 +8,8 @@ interface HealthcareExperienceProps {
 
 export function HealthcareExperience({ dict }: HealthcareExperienceProps) {
     return (
-        <section className="bg-primary/5 py-24 md:py-32">
-            <div className="container mx-auto flex flex-col gap-10">
+        <section className="bg-primary/5 py-16 md:py-32">
+            <div className="container mx-auto flex flex-col gap-10 px-4">
                 <div className="flex flex-col items-center gap-4 text-center">
                     <Badge variant="outline" className="border-primary text-primary px-4 py-1">
                         {dict.badge}
