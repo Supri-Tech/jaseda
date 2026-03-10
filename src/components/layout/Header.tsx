@@ -7,7 +7,7 @@ export function Header() {
             <div className="container mx-auto flex h-14 items-center justify-between px-4 md:px-6">
                 <div className="mr-4 hidden md:flex">
                     <Link href="/" className="mr-6 flex items-center space-x-2 font-bold">
-                        Jaseda
+                        jasedi
                     </Link>
                 </div>
                 <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">

@@ -51,7 +51,7 @@ export const en: Dictionary = {
     },
     testimonials: {
         title: "Trusted by Healthcare Leaders",
-        quote: "Jaseda has been an instrumental partner in modernizing our hospital's infrastructure. Their understanding of medical data compliance and system integration is unmatched.",
+        quote: "jasedi has been an instrumental partner in modernizing our hospital's infrastructure. Their understanding of medical data compliance and system integration is unmatched.",
         role: "Director of Information Systems",
         hospital: "Local Regional Hospital Partner",
     },
@@ -59,6 +59,11 @@ export const en: Dictionary = {
         title: "Ready to build your next project?",
         description: "Let's discuss your requirements and how we can help you achieve your goals. No pressure, just a conversation.",
         button: "Contact Us",
+    },
+    gallery: {
+        title: "Our Work",
+        subtitle: "A collection of real projects we've built — from healthcare dashboards to full-scale mobile applications.",
+        backToHome: "Back to Home",
     },
     footer: {
         tagline: "Professional Web & Mobile Development services specializing in healthcare and business systems.",

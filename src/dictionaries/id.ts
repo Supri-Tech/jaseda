@@ -51,7 +51,7 @@ export const id: Dictionary = {
     },
     testimonials: {
         title: "Dipercaya oleh Pemimpin Kesehatan",
-        quote: "Jaseda telah menjadi mitra penting dalam memodernisasi infrastruktur rumah sakit kami. Pemahaman mereka tentang kepatuhan data medis dan integrasi sistem tiada duanya.",
+        quote: "jasedi telah menjadi mitra penting dalam memodernisasi infrastruktur rumah sakit kami. Pemahaman mereka tentang kepatuhan data medis dan integrasi sistem tiada duanya.",
         role: "Direktur Sistem Informasi",
         hospital: "Mitra Rumah Sakit Regional Lokal",
     },
@@ -59,6 +59,11 @@ export const id: Dictionary = {
         title: "Siap membangun proyek Anda berikutnya?",
         description: "Mari diskusikan kebutuhan Anda dan bagaimana kami dapat membantu Anda mencapai tujuan. Tanpa tekanan, hanya percakapan.",
         button: "Hubungi Kami",
+    },
+    gallery: {
+        title: "Pekerjaan Kami",
+        subtitle: "Kumpulan proyek nyata yang telah kami bangun — dari dashboard kesehatan hingga aplikasi mobile lengkap.",
+        backToHome: "Kembali ke Beranda",
     },
     footer: {
         tagline: "Layanan Pengembangan Web & Mobile profesional yang berspesialisasi dalam sistem kesehatan dan bisnis.",

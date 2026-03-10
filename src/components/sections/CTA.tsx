@@ -7,7 +7,7 @@ interface CTAProps {
 
 export function CTA({ dict }: CTAProps) {
     return (
-        <section className="container mx-auto py-16 md:py-32 px-4">
+        <section id="contact" className="container mx-auto py-16 md:py-32 px-4">
             <div className="flex flex-col items-center gap-6 rounded-3xl bg-secondary px-6 py-12 text-center md:px-12 md:py-24">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                     {dict.title}
@@ -16,9 +16,15 @@ export function CTA({ dict }: CTAProps) {
                     {dict.description}
                 </p>
                 <div className="flex flex-col gap-4 sm:flex-row mt-4">
-                    <Button size="lg" className="w-full sm:w-auto">
-                        {dict.button}
-                    </Button>
+                    <a
+                        href="https://wa.me/62895710568000"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Button size="lg" className="w-full sm:w-auto">
+                            {dict.button}
+                        </Button>
+                    </a>
                 </div>
             </div>
         </section>

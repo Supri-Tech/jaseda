@@ -1,12 +1,20 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { Dictionary } from "@/dictionaries/types"
+import Link from "next/link"
 
 interface HeroProps {
     dict: Dictionary["hero"]
+    lang: string
 }
 
-export function Hero({ dict }: HeroProps) {
+export function Hero({ dict, lang }: HeroProps) {
+    const scrollToContact = () => {
+        document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
+    }
+
     return (
         <section className="container mx-auto flex flex-col items-center justify-center gap-6 py-16 text-center md:py-32 lg:py-48 px-4">
             <div className="flex max-w-[980px] flex-col gap-4">
@@ -19,12 +27,14 @@ export function Hero({ dict }: HeroProps) {
             </div>
 
             <div className="flex flex-col gap-4 sm:flex-row mt-6">
-                <Button size="lg" className="gap-2">
+                <Button size="lg" className="gap-2" onClick={scrollToContact}>
                     {dict.primaryCta} <ArrowRight className="h-4 w-4" />
                 </Button>
-                <Button size="lg" variant="ghost">
-                    {dict.secondaryCta}
-                </Button>
+                <Link href={`/${lang}/gallery`}>
+                    <Button size="lg" variant="ghost">
+                        {dict.secondaryCta}
+                    </Button>
+                </Link>
             </div>
         </section>
     )

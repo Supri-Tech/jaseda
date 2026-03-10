@@ -10,13 +10,14 @@ import { Dictionary } from "@/dictionaries/types";
 
 interface LandingPageProps {
     dict: Dictionary
+    lang: string
 }
 
-export function LandingPage({ dict }: LandingPageProps) {
+export function LandingPage({ dict, lang }: LandingPageProps) {
     return (
         <div className="flex min-h-screen flex-col">
             <main className="flex-1">
-                <Hero dict={dict.hero} />
+                <Hero dict={dict.hero} lang={lang} />
                 <Services dict={dict.services} />
                 <HealthcareExperience dict={dict.healthcare} />
                 <HowItWorks dict={dict.howItWorks} />

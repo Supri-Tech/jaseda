@@ -13,7 +13,7 @@ export function Footer({ dict }: FooterProps) {
                 <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
                     <div className="col-span-2 lg:col-span-2">
                         <Link href="/" className="text-xl font-bold tracking-tighter">
-                            Jaseda
+                            jasedi
                         </Link>
                         <p className="mt-4 max-w-xs text-sm text-muted-foreground">
                             {dict.tagline}
@@ -45,7 +45,7 @@ export function Footer({ dict }: FooterProps) {
 
                 <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
                     <p className="text-sm text-muted-foreground">
-                        © {new Date().getFullYear()} Jaseda. All rights reserved.
+                        © {new Date().getFullYear()} Jasedi. All rights reserved.
                     </p>
                 </div>
             </div>

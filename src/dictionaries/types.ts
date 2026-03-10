@@ -58,6 +58,11 @@ export interface Dictionary {
         description: string
         button: string
     }
+    gallery: {
+        title: string
+        subtitle: string
+        backToHome: string
+    }
     footer: {
         tagline: string
         services: {

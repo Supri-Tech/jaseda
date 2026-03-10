@@ -8,5 +8,5 @@ export async function generateStaticParams() {
 export default async function Page({ params }: { params: Promise<{ lang: Locale }> }) {
     const { lang } = await params
     const dict = getDictionary(lang);
-    return <LandingPage dict={dict} />;
+    return <LandingPage dict={dict} lang={lang} />;
 }

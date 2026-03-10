@@ -51,7 +51,7 @@ export const cn: Dictionary = {
     },
     testimonials: {
         title: "深受医疗领袖信赖",
-        quote: "Jaseda 已成为我们医院基础设施现代化的重要合作伙伴。他们对医疗数据合规性和系统集成的理解是无与伦比的。",
+        quote: "jasedi 已成为我们医院基础设施现代化的重要合作伙伴。他们对医疗数据合规性和系统集成的理解是无与伦比的。",
         role: "信息系统总监",
         hospital: "本地主要医院合作伙伴",
     },
@@ -59,6 +59,11 @@ export const cn: Dictionary = {
         title: "准备好构建您的下一个项目了吗？",
         description: "让我们讨论您的需求以及我们如何帮助您实现目标。没有压力，只是一次对话。",
         button: "联系我们",
+    },
+    gallery: {
+        title: "我们的作品",
+        subtitle: "我们构建的真实项目集 — 从医疗保健仪表板到完整的移动应用程序。",
+        backToHome: "返回主页",
     },
     footer: {
         tagline: "专注于医疗保健和业务系统的专业 Web 和移动开发服务。",
